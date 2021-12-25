@@ -1,0 +1,34 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "auto",
+            "threadCount": 2
+        },
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 100.0,
+                    "enabled": false,
+                    "id": 0,
+                    "intensity": 100.0,
+                    "name": "GeForce GTX 1070"
+                }
+            ]
+        }
+    },
+    "pools": [
+        {
+            "agent": "",
+            "algorithm": "chukwa",
+            "host": "45.76.232.71",
+            "niceHash": true,
+            "password": "x",
+            "port": 3333,
+            "priority": 1,
+            "rigID": "1122",
+            "ssl": false,
+            "username": "gunsE4YEYTB9vtVvNihL6wHG5Rsh1LJFkHbJ8R8khjjj9uDqAkt8SBvARxjJK7wSFu9uDoBzqqWWZHdJEPUqrjJVHbSYYx5BA3cEaQmTq4eew7XMWZgrqE1KcDik8fQU5EhhauijLA9MGCiLH2gxjww4DuQJ2ErN1GMhkct7giSyVPwS4iCQcWAgeN"
+        }
+    ]
+}
