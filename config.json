@@ -1,34 +1,40 @@
 {
-    "hardwareConfiguration": {
-        "cpu": {
-            "enabled": true,
-            "optimizationMethod": "auto",
-            "threadCount": 2
-        },
-        "nvidia": {
-            "devices": [
-                {
-                    "desktopLag": 100.0,
-                    "enabled": false,
-                    "id": 0,
-                    "intensity": 100.0,
-                    "name": "GeForce GTX 1070"
-                }
-            ]
+    "access-log-file": null,
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 80,
+            "tls":  false,
         }
-    },
+    ],
+"tls": {
+    "cert": "fullchain.pem",
+    "cert_key": "privkey.pem",
+    "dhparam": null,
+    "protocols": null,
+    "ciphers": null,
+    "ciphersuites": null
+},
+"colors": true,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
     "pools": [
         {
-            "agent": "",
-            "algorithm": "chukwa",
-            "host": "45.76.232.71",
-            "niceHash": true,
-            "password": "x",
-            "port": 3333,
-            "priority": 1,
-            "rigID": "1122",
-            "ssl": false,
-            "username": "gunsE4YEYTB9vtVvNihL6wHG5Rsh1LJFkHbJ8R8khjjj9uDqAkt8SBvARxjJK7wSFu9uDoBzqqWWZHdJEPUqrjJVHbSYYx5BA3cEaQmTq4eew7XMWZgrqE1KcDik8fQU5EhhauijLA9MGCiLH2gxjww4DuQJ2ErN1GMhkct7giSyVPwS4iCQcWAgeN"
+            "url": "pool.hashvault.pro:80",
+            "user": "TRTLv1bKxPzYVQn2XGC4DTetcpd3i2QKERPeEs1BpuB6WGM4taDv3UFYrjNzbeSWWNWCVQTabujSSbXyN2cbsR4zRhcTND1oCYk",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "algo": "argon2/chukwav2",
+            "tls": true,
+            "tls-fingerprint": null
         }
-    ]
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": true,
+    "workers": true
 }
